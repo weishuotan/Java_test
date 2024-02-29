@@ -1,0 +1,49 @@
+public class Demo01HelloWorld{
+	public static void main(String[] args){
+		System.out.println("HelloWorld");
+	}
+}
+
+public class Demo05HelloWorld{
+	public static void main(String[] args){
+		//System.out.println("床前明月光");
+		//System.out.println("疑是地上霜");
+		//System.out.println("举头望明月");
+		//System.out.println("低头思故乡");
+		System.out.print("床前明月光");
+		System.out.print("疑是地上霜");
+		System.out.print("举头望明月");
+		System.out.print("低头思故乡");
+		
+	}
+}
+
+public class Demo01Constant{
+	public static void main(String[] args){
+		//整数常量
+		System.out.println(1);
+		System.out.println(-1);
+		
+		//小数常量
+		System.out.println(1.5);
+		System.out.println(1.0);
+		
+		//字符常量   单引号中必须有且只能有一个内容
+		System.out.println('1');
+		//System.out.println('11');错误
+		System.out.println(' ');//一个空格算一个内容
+		//System.out.println('    ');//四个空格算四个内容,所以不属于字符常量
+		System.out.println('	');//tab键算一个内容
+		
+		//字符串常量
+		System.out.println("本人是尚硅谷第一帅的男人");
+		System.out.println("");
+		
+		//布尔常量
+		System.out.println(true);
+		System.out.println(false);
+		
+		//空常量 不能直接使用
+		//System.out.println(null);
+	}
+}
