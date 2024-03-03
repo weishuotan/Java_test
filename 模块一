@@ -17,7 +17,19 @@ public class Demo05HelloWorld{
 		
 	}
 }
-
+public class Demo05HelloWorld{
+	public static void main(String[] args){
+		System.out.println("床前明月光");
+		System.out.println("疑是地上霜");
+		System.out.println("举头望明月");
+		System.out.println("低头思故乡");
+		System.out.println("**********");
+		System.out.print("床前明月光");
+		System.out.print("疑是地上霜");
+		System.out.print("举头望明月");
+		System.out.print("低头思故乡");
+	}
+}
 public class Demo01Constant{
 	public static void main(String[] args){
 		//整数常量
