@@ -33,6 +33,37 @@ public class Demo02Constant{
 		System.out.println(10/3.0);
 	}
 }
+public class Demo03Var{
+	public static void main(String[] args){
+		//byte num1=128;会报错
+		byte num1=127;
+		System.out.println(num1);
+		
+		short num2=10000;
+		System.out.println(num2);
+		
+		int num3=13542;
+		System.out.println(num3);
+		
+		long num4=10L;
+		System.out.println(num4);//10
+		
+		float num5=2.5F;
+		System.out.println(num5);//2.5
+		
+		double num6=2.5;
+		System.out.println(num6);//2.5
+		
+		boolean num7=true;
+		System.out.println(num7);
+		boolean num8=false;
+		System.out.println(num8);
+		
+		String name="金莲";
+		System.out.println(name);
+		
+	}
+}
 public class Demo11DataType{
 	public static void main(String[] args){
 		//精度损失
