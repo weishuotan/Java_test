@@ -20,7 +20,19 @@ public class Demo01Constant{
 		//System.out.println(null);
 	}
 }
-
+public class Demo02Constant{
+	public static void main(String[] args){
+		System.out.println(10+3);
+		System.out.println(10*3);
+		System.out.println(10-3);
+		/*如果前后都是整数结果也是整数
+		  如果前后有一个是浮点数则运算的结果也是浮点数
+		*/
+		System.out.println(10/3);
+		System.out.println(10.0/3);
+		System.out.println(10/3.0);
+	}
+}
 public class Demo11DataType{
 	public static void main(String[] args){
 		//精度损失
