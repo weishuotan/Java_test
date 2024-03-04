@@ -64,6 +64,31 @@ public class Demo03Var{
 		
 	}
 }
+public class Demo04Var{
+	public static void main(String[] args){
+		int num1 = 10;
+		int num2 = 3;
+		
+		int sum = num1+num2;
+		System.out.println(sum);//13
+		
+		int sub = num1-num2;
+		System.out.println(sub);//7
+		
+		//System.out.println(num1*num2);//30
+		int mul = num1*num2;
+		System.out.println(mul);//30
+		
+		/*
+		  由于/前后都是整数,结果取整数部分,结果还赋值给一个整数变量
+		*/
+		int div = num1/num2;
+		System.out.println(div);//3
+		
+		double div1 = num1/num2;//3.0
+		System.out.println(div1);
+	}
+}
 public class Demo11DataType{
 	public static void main(String[] args){
 		//精度损失
