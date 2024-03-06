@@ -136,3 +136,38 @@ public class Demo11DataType{
 		System.out.println(c+0);//20013
 	}
 }
+public class Demo11DataType{
+	public static void main(String[] args){
+		//精度损失
+		int i = (int)2.9;
+		System.out.println(i);
+		
+		/*
+		  数据溢出
+		  int型占内存4个字节,4个字节变成二进制是32位
+		  
+		  100个亿: 10 0101 0100 0000 1011 1110 0100 0000 0000 -> 34位二进制
+		  
+		  100个亿的二进制位比int型的二进制位多出来2位,此时干掉最前面的2位
+		  
+		  101 0100 0000 1011 1110 0100 0000 0000
+		  
+		  101 0100 0000 1011 1110 0100 0000 0000->1410065408
+		*/
+		int j = (int)10000000000L;
+		System.out.println(j);//1410065408
+		
+	    System.out.println("=========================");
+		
+		byte b = 10;
+		System.out.println(b);
+		
+		b = (byte)(b+1);
+		System.out.println(b);
+		
+		System.out.println("=========================");
+		
+		char c = '中';
+		System.out.println(c+0);//20013
+	}
+}
